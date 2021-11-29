@@ -1,3 +1,4 @@
+grep '<a href="/library' pluralsight.txt >> pluralsight2.txt
 mv pluralsight2.txt pluralsight.txt
 tidy -q -i -m --wrap 160 -ashtml -utf8 pluralsight.txt 2>/dev/null
 grep '<a href="/library' pluralsight.txt >> pluralsight2.txt
